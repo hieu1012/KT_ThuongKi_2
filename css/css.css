@@ -1,0 +1,151 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+html{
+    background-image: url(/img/Image20240225155450.png);
+}
+.wrapper{
+    width: 960px;
+    height: 754px;
+    border: 1px solid;
+    border-color: #501717;
+    margin: 0px auto;
+    background-color: white;
+
+}
+nav{
+    width: 100%;
+    height: 8%;
+    float: left;
+    background-color: rgb(237, 134, 211);
+}
+nav ul{
+    list-style: none;
+    display:flex ;
+}
+
+nav ul li{
+    margin: 0 10px;
+}
+nav ul #search{
+    margin: 0 0 0 270px;
+    color: red;
+}
+nav ul a{
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul a:hover{
+    color: blue;
+}
+
+button{
+    background-color: rgb(87, 173, 238);
+}
+
+header{
+    width: 100%;
+    
+    margin:  auto;
+    
+}
+header img{
+    width: 100%;
+}
+
+.section_aside {
+    width: 100% ;
+    display: flex;
+}
+
+.section_aside section{
+    width: 70%;
+    height: auto;
+   background-color: #89c1df;
+    /* background-image: linear-gradient(0.25,#f0f6f7,#43b4f1); */
+    
+}
+
+.section_aside section h1{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.section_aside section .sec{
+    display: flex;
+}
+
+.section_aside section .p{
+    width: 50%;
+}
+
+.section_aside section p{
+    font-size: 18px;
+}
+
+.section_aside section .form{
+    width: 50%;
+    margin-left:40px;
+    margin-right: 15px;
+    padding-left: 25px;
+    padding-top: 30px;
+    border:1px solid #ccc ;
+    
+}
+.section_aside section .form p {
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 7px;
+}
+.section_aside section .form b{
+    font-size: 20px;
+}
+.section_aside section .form input{
+    font-size: 20px;
+}
+.section_aside section .form .button{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+
+
+
+.section_aside aside{
+    width: 30%;
+    display: block;
+    border: 4px solid #ccc;
+}
+.section_aside aside img{
+    width: 100%;
+    display: block;
+}
+.section_aside aside p{
+    border-bottom: 1px dotted black ;
+    margin-top: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #bfc21e;
+    
+}
+footer ul{
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 5px;
+    font-size: 18px;
+}
+
